@@ -7,3 +7,6 @@ app = Flask(__name__)
 def hello():
     return "<p>hello</p>"
 
+
+if __name__ == "__main__":
+    app.run()
