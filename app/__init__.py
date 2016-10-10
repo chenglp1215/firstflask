@@ -1,7 +1,7 @@
 from flask import Flask
-from flask.ext.mail import Mail
-from flask.ext.moment import Moment
-from flask.ext.sqlalchemy import SQLAlchemy
+# from flask.ext.mail import Mail
+# from flask.ext.moment import Moment
+from flask_sqlalchemy import SQLAlchemy
 
 from config import config
 
