@@ -17,3 +17,8 @@ def index():
     })
 
 
+@main.route(r'/wx', methods=['GET',])
+def wx_token():
+    with open('wxlog.log', 'a') as logfile:
+        logfile.write('%s\n' % str(request.args))
+    return "test"

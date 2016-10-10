@@ -11,7 +11,7 @@ def index():
 
 
 @vote.route(r'/api/index/', methods=["GET",])
-def index_list():
+def api_index():
     return jsonify([{
             'id': each.id,
             'name': each.name,
