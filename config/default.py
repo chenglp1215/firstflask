@@ -12,3 +12,4 @@ class FullConfig(Config):
         'sqlite:///' + os.path.join(basedir, 'data-default.sqlite')
 
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
+    WX_LOG_FILE = 'wxlog.log'

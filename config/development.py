@@ -13,3 +13,4 @@ class FullConfig(Config):
 
     SERVER_URL = 'http://love.cenhong.red'
 
+    WX_LOG_FILE = '/tmp/wxlog.log'
