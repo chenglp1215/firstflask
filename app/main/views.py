@@ -1,15 +1,19 @@
-from flask import url_for
+from flask import url_for, render_template, request
 
 from . import main
 
 
 @main.route(r'/hello/', methods=['GET', 'POST'])
 def hello():
-    return "<p>hello</p><a href=%s>index</a>" % url_for('main.index')
+    return render_template('hello.html', params={
+        'redict_url': request.referrer or url_for('main.index')
+    })
 
 
 @main.route(r'/', methods=['GET',])
 def index():
-    return "<p>index</p><a href=%s>hello</a>" % url_for('main.hello')
+    return render_template('index.html', params={
+        'redict_url': url_for('main.hello')
+    })
 
 

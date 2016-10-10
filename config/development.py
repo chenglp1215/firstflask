@@ -9,4 +9,7 @@ class FullConfig(Config):
 
     DEBUG = True
     SQLALCHEMY_DATABASE_URI = os.environ.get('DEV_DATABASE_URL') or \
-        'sqlite:///' + os.path.join(basedir, 'data-dev.sqlite')
+        'mysql://root:csly@127.0.0.1:3306/firstflask'
+
+    SERVER_URL = 'http://love.cenhong.red'
+
