@@ -12,6 +12,7 @@ Flask-Uploads==0.1.3
 Flask-Migrate
 flask-bootstrap
 flask_admin
+flask_babelex
 
 MySQL-python
 Jinja2==2.7.3

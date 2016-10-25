@@ -8,5 +8,5 @@ def page_not_found(e):
 
 @main.app_errorhandler(500)
 def internal_server_error(e):
-    return "<h1>Internal Server Error</h1>"
+    return "<h1>Internal Server Error </h1>"
 
