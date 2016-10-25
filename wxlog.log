@@ -1,0 +1,6 @@
+ImmutableMultiDict([('sign', u'12345')])ImmutableMultiDict([('sign', u'12345')])ImmutableMultiDict([('sign', u'12345')])
+ImmutableMultiDict([('sign', u'12345')])
+GET: sign->8be01c7015a36bdeb64979441c32da1db6a81d2c, timestamp->1476093757, nonce->40077162 echostr->9108564990360283005
+MYSIGN: sign->8be01c7015a36bdeb64979441c32da1db6a81d2c
+GET: sign->8be01c7015a36bdeb64979441c32da1db6a81d2c, timestamp->1476093757, nonce->40077162 echostr->9108564990360283005
+MYSIGN: sign->8be01c7015a36bdeb64979441c32da1db6a81d2c

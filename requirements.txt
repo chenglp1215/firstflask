@@ -11,6 +11,8 @@ Flask-Restless==0.15.0
 Flask-Uploads==0.1.3
 Flask-Migrate
 flask-bootstrap
+flask_admin
+
 MySQL-python
 Jinja2==2.7.3
 Mako==1.0.0

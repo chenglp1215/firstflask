@@ -1,0 +1,22 @@
+{% extends 'admin/model/details.html' %}
+
+{% block details_search %}
+
+{% endblock %}
+
+{% block details_table %}
+    <div>
+        <div style="text-align: center">
+            <h4>{{ model.title }}</h4>
+            <p>
+                {{ model.create_time }}
+            </p>
+        </div>
+        <div class="content">
+            {{ model.article|safe }}
+        </div>
+    </div>
+    <div style="text-align: right">
+        <a href="{{ get_url('love.article_info', article_id=model.id) }}">查看网页详情</a>
+    </div>
+{% endblock %}
